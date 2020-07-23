@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style Header */
+
+.title-big-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight:400;
+    color: #212121;
+}
+
+.title-small-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+   
+}
+
+.line-orange {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+/* Style Content  */
+
+.main-content {
+    padding: 107px 0;
+}
+
+.speakers {
+    font-size: 0;
+    margin-top: 80px;
+}
+
+.speaker {
+    display: inline-block;
+    width: 360px;
+    margin: 0 18px;
+}
+
+.speaker h2 {
+    margin:29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.speaker p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* icon */
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
