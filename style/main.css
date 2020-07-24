@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -16,7 +15,7 @@
 .title-big-name {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    font-weight:400;
+    font-weight: 400;
     color: #212121;
 }
 
@@ -72,7 +71,7 @@
     height: 70px;
     margin: 0 auto;
     border: 2px solid #FF8B38;
-    border-radius: 50%;
+    border-radius: 50%; /* Окружность */
 }
 
 .icon-lamp {
