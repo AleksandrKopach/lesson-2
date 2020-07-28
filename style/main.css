@@ -11,22 +11,25 @@
 }
 
 /* Style Header */
+header {
+    padding-top: 107px;
+}
 
-.title-big-name {
+h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    font-weight: 400;
+    font-weight:400;
     color: #212121;
 }
 
-.title-small-name {
+h4 {
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
    
 }
 
-.line-orange {
+hr {
     width: 64px;
     height: 2px;
     border: none;
@@ -34,15 +37,11 @@
     margin: 30px auto;
 }
 
-/* Style Content  */
+/* Main Content  */
 
-.main-content {
-    padding: 107px 0;
-}
-
-.speakers {
+main {
+    padding: 80px 0 107px;
     font-size: 0;
-    margin-top: 80px;
 }
 
 .speaker {
@@ -51,14 +50,14 @@
     margin: 0 18px;
 }
 
-.speaker h2 {
+h2 {
     margin:29px 0;
     font-size: 20px;
     font-weight: 700;
     color: #333333;
 }
 
-.speaker p {
+p {
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
